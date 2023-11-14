@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Avatar",
+    "director": "James Cameron"
+  },
+  {
+    "title": "I Am Legend",
+    "director": "Francis Lawrence"
+  },
+  {
+    "title": "300",
+    "director": "Zack Snyder"
+  },
+  {
+    "title": "The Avengers",
+    "director": "Joss Whedon"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "director": "Martin Scorsese"
+  },
+  {
+    "title": "Interstellar",
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "Game of Thrones",
+    "director": "N/A"
+  },
+  {
+    "title": "Vikings",
+    "director": "N/A"
+  }
+]
