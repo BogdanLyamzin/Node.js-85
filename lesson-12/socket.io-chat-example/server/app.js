@@ -1,5 +1,5 @@
 import {Server} from "socket.io";
-import {createServer} from "http";
+import {createServer} from 'http';
 
 const httpServer = createServer();
 
@@ -9,12 +9,11 @@ const wsServer = new Server(httpServer, {
     }
 });
 
-wsServer.on("connection", socket => {
-    // console.log("New frontend connected");
-
-    socket.on("chat-message", data => {
-        socket.broadcast.emit("chat-message", data);
+wsServer.on("connection", (socket)=> {
+    // console.log("New frontend connected")
+    socket.on("chat-message", message => {
+        socket.broadcast.emit("chat-message", message)
     })
 })
 
-httpServer.listen(5000);
+httpServer.listen(4000);
